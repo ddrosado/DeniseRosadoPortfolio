@@ -11,7 +11,9 @@ export default function Welcome() {
         <div className={styles.descriptionContainer}>
 
             <div className={styles.leftContainer}>
-       <h1 className={styles.welcomeTitle}>Welcome to my portfolio</h1> 
+                <p>Hi! I'm</p>
+       <h1 className={styles.welcomeTitle}>Denise Rosado</h1> 
+       <h2>A FullStack Developer based in Argentina</h2>
        </div>
 
        <div className={styles.rightContainer}>
