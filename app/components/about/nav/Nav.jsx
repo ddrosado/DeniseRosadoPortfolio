@@ -14,7 +14,7 @@ export default function Nav() {
       <div className={styles.navContainer}>
         <ul className={styles.ul}>
           {navItems.map((item, index) => (
-            <li key={index}>
+            <li key={index} className={styles.li}>
               <a href={item.href}>{item.label}</a>
             </li>
           ))}
