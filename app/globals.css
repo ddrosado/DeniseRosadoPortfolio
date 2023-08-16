@@ -2,10 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-/* :root {
-
+:root {
+overflow:auto;
 }
 
+/* 
 @media (prefers-color-scheme: dark) {
   :root {
 
