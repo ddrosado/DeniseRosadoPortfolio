@@ -1,0 +1,6 @@
+.contactContainer{
+    width: 50%;
+    height: 100vh;
+    background: rgb(132,255,252);
+    background: linear-gradient(210deg, rgba(132,255,252,1) 0%, rgba(223,190,255,1) 50%, rgba(255,112,197,1) 100%);
+}
