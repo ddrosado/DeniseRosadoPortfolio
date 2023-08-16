@@ -1,6 +1,7 @@
 import Welcome from './components/welcome/Welcome'
-import About from './components/about/About'
-import Nav from './components/about/nav/Nav'
+import Stack from './components/stack/Stack'
+import Nav from './components/nav/Nav'
+import Projects from './components/projects/Projects'
 
 
 export default function Home() {
@@ -10,7 +11,8 @@ export default function Home() {
         <Nav/>
         <div>
         <Welcome/>
-        <About/>
+        <Stack/>
+        <Projects/>
         </div>
       </div>
     </main>
