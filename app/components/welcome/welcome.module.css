@@ -48,6 +48,9 @@
   -moz-text-fill-color: transparent;
 }
 
+.welcomeSubtitle{
+  font-size: 1.5rem;
+}
 
 .image{
   max-width: 380px;
@@ -65,13 +68,56 @@
 
 .descriptionContainer{
   display: flex;
-  border: 1px solid cyan;
+  /* border: 1px solid cyan; */
   justify-content: space-around;
   width: 100%;
   height: 65vh;
   margin: auto;
 }
 
-.leftContainer{
+/* .leftContainer{
   border: 1px solid fuchsia;
+}
+
+.textContainer{
+
+} */
+
+.iconsSpan{
+  font-size: 2rem;
+  color: rgb(30, 30, 30);
+  background-size: 100%;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+.downloadButton{
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 600;
+  background-color: rgba(255,112,197,1);
+  background-image: linear-gradient(90deg, rgba(255,112,197,1) 40%, rgba(223,190,255,1) 80%, rgba(132,255,252,1) 100%);
+  color: white;
+  border-radius: 7px;
+  padding: 5px;
+  height: 2.5rem;
+  width: 10rem;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.myName{
+  font-weight: 800;
+}
+
+.manito{
+  display: inline;
+  width: 1.5rem;
+  padding-bottom: 5px;
+}
+
+.buttonContainer{
+  margin-top: 1rem;
 }
