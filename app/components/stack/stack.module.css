@@ -36,14 +36,7 @@
     border: 4px solid transparent;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
-/* .softContainer{
-    width: 20vw;
-    height: 60vh;
-    background: linear-gradient(#f4f4f4, #f4f4f4) padding-box,
-    linear-gradient(180deg, rgba(255,112,197,1) 40%, rgba(223,190,255,1) 80%, rgba(132,255,252,1) 100%) border-box;
-    border-radius: 5px;
-    border: 4px solid transparent;
-} */
+
 
 .svg{
     width: 180px;
@@ -67,7 +60,7 @@
 
 .titleContainer{
     display: flex;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.2px;
     border-bottom: 1px solid #d4d4d4;
 }
 
