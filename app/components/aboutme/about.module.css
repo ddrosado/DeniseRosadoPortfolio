@@ -4,3 +4,21 @@
     background: #f4f4f4;
     /* background: linear-gradient(180deg, rgba(255,112,197,1) 40%, rgba(223,190,255,1) 80%, rgba(132,255,252,1) 100%); */
 }
+
+.aboutTitle{
+    font-size: 3rem;
+  font-weight: 600;
+  background-color: rgba(255,112,197,1);
+  background-image: linear-gradient(45deg, rgba(255,112,197,1), rgb(0, 255, 251));
+  background-size: 100%;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+.descriptionContainer{
+    border: 1px solid black;
+    display: flex;
+}

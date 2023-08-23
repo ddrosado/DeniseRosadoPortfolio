@@ -20,13 +20,14 @@ export default function Welcome() {
         <div className={styles.textContainer}>
         <h2 className={styles.welcomeSubtitle}>
           Hi! <Image src={manitoholi} className={styles.manito} width={100}/> I&apos;m  
-        <span className={styles.myName}> Denise Rosado
+        <span className={styles.bolder}> Denise Rosado
         </span></h2>
         
 
 
        <h1 className={styles.welcomeTitle}>FullStack Developer</h1> 
-       <h2 className={styles.welcomeSubtitle}>based in Buenos Aires, Argentina.</h2>
+       <h2 className={styles.welcomeSubtitle}>with a <span className={styles.bold}>Front-End</span> preference.</h2>
+       <h2 className={styles.welcomeSubtitle}> I love crafting intuitive and functional interfaces that enhance user experiences!</h2>
 
       </div>
 
