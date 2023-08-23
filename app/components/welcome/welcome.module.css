@@ -1,7 +1,7 @@
 .welcomeContainer{
     display: flex;
     width: 100%;
-    height: 93vh;
+    height: 100vh;
     background: rgb(255,112,197);
     background: linear-gradient(90deg, rgba(255,112,197,1) 40%, rgba(223,190,255,1) 80%, rgba(132,255,252,1) 100%);
 }
@@ -10,12 +10,13 @@
 .titleContainer{
   /* border: 1px solid green; */
   display: flex;
+  flex-direction: column;
   margin: auto;
   background-color: #f4f4f4;
   border-radius: 10px;
   /* margin-top: 11vh; */
   width: 90vw;
-  height: 85vh;
+  height: 90vh;
   justify-content: center;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
@@ -38,11 +39,7 @@
 }
 
 .welcomeSubtitle{
-  font-size: 1.5rem;
-}
-
-.welcomeSubtitle:last-of-type{
-  margin: 20px 0px 20px 0px;
+  font-size: 1.6rem;
 }
 
 .image{
@@ -63,19 +60,30 @@
   display: flex;
   /* border: 1px solid cyan; */
   justify-content: space-around;
+  padding: 3rem;
   width: 100%;
-  height: 65vh;
-  margin: auto;
+  height: 100%;
 }
 
 .leftContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   width: 40vw;
-  padding: 2rem 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  /* border: 1px solid red; */
 }
 
-/* .textContainer{
+.textContainer{
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid cyan; */
+}
 
-} */
+.textContainer2{
+  display: flex;
+  /* border: 2px solid green; */
+}
 
 .iconsSpan{
   font-size: 2rem;
@@ -88,7 +96,9 @@
   -moz-text-fill-color: transparent;
 }
 
+
 .downloadButton{
+  font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: 3px;
   font-weight: 600;
@@ -97,7 +107,7 @@
   color: white;
   border-radius: 7px;
   padding: 5px;
-  height: 2.8rem;
+  height: 3rem;
   width: 11rem;
   box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 }
@@ -116,6 +126,3 @@
   padding-bottom: 5px;
 }
 
-.buttonContainer{
-  margin-top: 1rem;
-}
