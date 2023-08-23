@@ -5,7 +5,7 @@ import Stack from '../stack/Stack'
 export default function About() {
   return (
     <div className={styles.aboutContainer} id="about">
-    About
+      <h1># About me</h1>
     <Stack/>
     </div>
   )

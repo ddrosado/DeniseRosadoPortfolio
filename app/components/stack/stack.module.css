@@ -1,25 +1,77 @@
 .stackContainer{
     display: flex;
-    border: 1px solid black;
+    justify-content: space-around;
+    /* border: 1px solid black; */
 }
 
 .frontContainer{
-    width: 10vw;
-    height: 20vh;
-    margin: 5rem;
-    background: linear-gradient(white, white) padding-box,
-    linear-gradient(to right, darkblue, darkorchid) border-box;
+    padding: 5px;
+    width: 25vw;
+    height: 60vh;
+    background: linear-gradient(#f4f4f4, #f4f4f4) padding-box,
+    linear-gradient(180deg, rgba(255,112,197,1) 40%, rgba(223,190,255,1) 80%, rgba(132,255,252,1) 100%) border-box;
     border-radius: 5px;
     border: 4px solid transparent;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
 
 .backContainer{
-    border: 1px solid black;
+    padding: 5px;
+    width: 25vw;
+    height: 60vh;
+    background: linear-gradient(#f4f4f4, #f4f4f4) padding-box,
+    linear-gradient(180deg, rgba(255,112,197,1) 40%, rgba(223,190,255,1) 80%, rgba(132,255,252,1) 100%) border-box;
+    border-radius: 5px;
+    border: 4px solid transparent;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
 
 .otherContainer{
-    border: 1px solid black;
+    padding: 5px;
+    width: 25vw;
+    height: 60vh;
+    background: linear-gradient(#f4f4f4, #f4f4f4) padding-box,
+    linear-gradient(180deg, rgba(255,112,197,1) 40%, rgba(223,190,255,1) 80%, rgba(132,255,252,1) 100%) border-box;
+    border-radius: 5px;
+    border: 4px solid transparent;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
-.softContainer{
-    border: 1px solid black;
+/* .softContainer{
+    width: 20vw;
+    height: 60vh;
+    background: linear-gradient(#f4f4f4, #f4f4f4) padding-box,
+    linear-gradient(180deg, rgba(255,112,197,1) 40%, rgba(223,190,255,1) 80%, rgba(132,255,252,1) 100%) border-box;
+    border-radius: 5px;
+    border: 4px solid transparent;
+} */
+
+.svg{
+    width: 180px;
+    margin: auto;
+}
+
+.span{
+    display: inline-block;
+    background-color: #d5d5d5;
+    margin: 3px 3px 3px 0px;
+    border: 2px solid #d5d5d5;
+    border-radius: 3px;
+    padding: 2px 5px 2px 5px;
+}
+
+.boxTitle{
+    margin: auto;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.titleContainer{
+    display: flex;
+    letter-spacing: 1.5px;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.content{
+    margin-top: 5px;
+    
 }
