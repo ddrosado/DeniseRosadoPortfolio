@@ -9,8 +9,6 @@ import Contact from './components/contact/Contact'
 export default function Home() {
   return (
     <main>
-      <div>
-        <Nav/>
         <div>
         <Welcome/>
         <About/>
@@ -18,7 +16,6 @@ export default function Home() {
         <Opinions/>
         <Contact/>
         </div>
-      </div>
     </main>
   )
 }
