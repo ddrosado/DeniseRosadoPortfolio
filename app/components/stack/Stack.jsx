@@ -39,7 +39,7 @@ export default function Stack() {
 
         <div className={styles.content}>
       {technologies.backend.map((tech, index) => (
-            <span key={index} className={styles.span}> {tech} </span>
+            <span key={index} className={styles.span}>{tech}</span>
           ))}
       </div>
 
