@@ -15,8 +15,13 @@ overflow:auto;
 
 
 
+
 body {
 
 }
 
  */
+
+ .fp-watermark {
+  display: none;
+  }

@@ -4,6 +4,7 @@ import Stack from '../stack/Stack'
 
 export default function About() {
   return (
+    <div className="section">
     <div className={styles.aboutContainer} id="about">
 
     <div className={styles.descriptionContainer}>
@@ -19,6 +20,7 @@ export default function About() {
 
     <Stack/>
 
+    </div>
     </div>
   )
 }

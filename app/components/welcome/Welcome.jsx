@@ -10,6 +10,7 @@ config.autoAddCss = false
 
 export default function Welcome() {
   return (
+    <div className="section">
     <div className={styles.welcomeContainer}>
        <div className={styles.titleContainer}>
        <Nav/>
@@ -64,6 +65,8 @@ export default function Welcome() {
 
        </div>
        </div>
+    </div>
+
     </div>
   )
 }
