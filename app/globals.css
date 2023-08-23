@@ -25,3 +25,15 @@ body {
  .fp-watermark {
   display: none;
   }
+
+  #fp-nav ul li:hover a.active span,
+  #fp-nav ul li a.active span,
+  .fp-slidesNav ul li:hover a.active span,
+  .fp-slidesNav ul li a.active span {
+    background-color: rgba(255,112,197,1);
+  }
+
+  #fp-nav ul li a span {
+    background-color: rgba(0, 0, 0, 0.548) !important;
+  }
+  
