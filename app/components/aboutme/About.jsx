@@ -12,7 +12,10 @@ export default function About() {
         About me
         </h1>
       </div>
-
+    
+    <div className={styles.descriptionContainer2}>
+    ola me gusta la papa frita
+    </div>
 
     <Stack/>
 
