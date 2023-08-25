@@ -8,6 +8,7 @@ import Contact from './components/contact/Contact'
 
 import React, { useState } from "react";
 import ReactFullpage from "@fullpage/react-fullpage";
+import Technologies from './components/technologies/Technologies'
 
 
 export default function Home() {
@@ -20,8 +21,9 @@ export default function Home() {
           <ReactFullpage.Wrapper>
         <Welcome/>
         <About/>
+        <Technologies/>
         <Projects/>
-        <Opinions/>
+        {/* <Opinions/> */}
         <Contact/>
           </ReactFullpage.Wrapper>
        )}

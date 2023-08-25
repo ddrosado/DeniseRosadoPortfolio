@@ -25,9 +25,9 @@ export default function Welcome() {
           
         <h2 className={styles.welcomeSubtitle}>
           Hi! <Image src={manitoholi} className={styles.manito} width={100}/> I&apos;m  
-        <span className={styles.bolder}> Denise Rosado
-        </span></h2>
-       <h1 className={styles.welcomeTitle}>FullStack Developer</h1> 
+        <p className={styles.welcomeTitle}> Denise Rosado
+        </p></h2>
+       <h1 className={styles.bolder}>FullStack Developer</h1> 
        <h2 className={styles.welcomeSubtitle}>with a <span className={styles.bold}>Front-End</span> preference!</h2>
 
        </div>

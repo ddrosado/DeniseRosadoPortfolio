@@ -1,11 +1,9 @@
-.aboutContainer{
+.technologiesContainer{
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 100vh;
     background: #f4f4f4;
-    /* border: 4px solid yellow; */
-    /* background: linear-gradient(180deg, rgba(255,112,197,1) 40%, rgba(223,190,255,1) 80%, rgba(132,255,252,1) 100%); */
 }
 
 .aboutTitle{
