@@ -8,7 +8,23 @@
     /* background: linear-gradient(180deg, rgba(255,112,197,1) 40%, rgba(223,190,255,1) 80%, rgba(132,255,252,1) 100%); */
 }
 
-.aboutTitle{
+
+.topContainer{
+    width: 100%;
+    height: 20vh;
+    /* border: 1px solid red; */
+    background: rgb(255,112,197);
+    background: linear-gradient(90deg, #ff70c5 40%, #dfbeff 80%, #84fffc 100%);
+}
+
+.bottomContainer{
+    width: 100%;
+    height: 20vh;
+}
+
+
+
+/* .aboutTitle{
   font-size: 3rem;
   font-weight: 600;
   background-color: rgba(255,112,197,1);
@@ -40,4 +56,4 @@
 .stack{
     display: flex;
     flex-direction: column;
-}
+} */
