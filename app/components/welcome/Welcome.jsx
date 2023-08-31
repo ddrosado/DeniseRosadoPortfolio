@@ -8,12 +8,12 @@ import manitoholi from '../../../public/manitoholi.png'
 import Nav from '../nav/Nav'
 config.autoAddCss = false
 
-export default function Welcome() {
+export default function Welcome({fullpageApi}) {
   return (
     <div className="section">
     <div className={styles.welcomeContainer}>
        <div className={styles.titleContainer}>
-       <Nav/>
+       <Nav fullpageApi={fullpageApi}/>
         <div className={styles.descriptionContainer}>
 
         <div className={styles.leftContainer}>
@@ -24,16 +24,16 @@ export default function Welcome() {
 
           
         <h2 className={styles.welcomeSubtitle}>
-          Hi! <Image src={manitoholi} className={styles.manito} width={100}/> I&apos;m  
-        <p className={styles.welcomeTitle}> Denise Rosado
+          Hola! <Image src={manitoholi} className={styles.manito} width={100}/> Soy 
+        <p className={styles.welcomeTitle}> Denise Rosado,
         </p></h2>
        <h1 className={styles.bolder}>FullStack Developer</h1> 
-       <h2 className={styles.welcomeSubtitle}>with a <span className={styles.bold}>Front-End</span> preference!</h2>
+       <h2 className={styles.welcomeSubtitle}>orientada al FrontEnd!</h2>
 
        </div>
 
        <div className={styles.textContainer2}>
-       <h2 className={styles.welcomeSubtitle}>I love crafting intuitive and functional interfaces that enhance user experiences.</h2>
+       <h2 className={styles.welcomeSubtitle}>Y me apasiona crear interfaces intuitivas que enriquezcan la experiencia del usuario.</h2>
 
       </div>
 
