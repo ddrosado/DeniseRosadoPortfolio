@@ -8,12 +8,12 @@ import manitoholi from '../../../public/manitoholi.png'
 import Nav from '../nav/Nav'
 config.autoAddCss = false
 
-export default function Welcome({fullpageApi}) {
+export default function Welcome() {
   return (
-    <div className="section">
+    <div className="section" data-anchor="home">
     <div className={styles.welcomeContainer}>
        <div className={styles.titleContainer}>
-       <Nav fullpageApi={fullpageApi}/>
+       <Nav/>
         <div className={styles.descriptionContainer}>
 
         <div className={styles.leftContainer}>

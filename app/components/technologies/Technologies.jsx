@@ -5,8 +5,8 @@ import Stack from '../stack/Stack'
 
 export default function Technologies() {
   return (
-    <div className='section'>
-    <div className={styles.technologiesContainer} id="stack">
+    <div className='section' data-anchor="stack">
+    <div className={styles.technologiesContainer}>
 
     <div className={styles.descriptionContainer}>
       <h1 className={styles.aboutTitle}>

@@ -3,10 +3,10 @@ import styles from './nav.module.css'
 
 export default function Nav() {
     const navItems = [
-      { label: "About me", href: "#about" },
-      { label: "Projects", href: "#projects" },
-      { label: "Opinions", href: "#opinions" },
-      { label: "Contact", href: "#contact" },
+      { label: "Sobre mí", href: "#about" },
+      { label: "Habilidades", href: "#stack" },
+      { label: "Proyectos", href: "#projects" },
+      { label: "Contacto", href: "#contact" },
     ];
   
     return (

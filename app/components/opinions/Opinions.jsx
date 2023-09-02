@@ -3,8 +3,8 @@ import styles from './opinions.module.css'
 
 export default function Opinions() {
   return (
-    <div className="section">
-    <div className={styles.opinionsContainer} id="opinions">
+    <div className="section" data-anchor="opinions">
+    <div className={styles.opinionsContainer} >
     Opinions
     </div>
     </div>

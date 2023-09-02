@@ -17,16 +17,19 @@ export default function Home() {
         <div>
         <ReactFullpage
         navigation
+        anchors = {['home', 'about', 'stack', 'projects', 'contact']}
         render={comp => (
           <ReactFullpage.Wrapper>
         <Welcome/>
         <About/>
         <Technologies/>
         <Projects/>
-        {/* <Opinions/> */}
         <Contact/>
           </ReactFullpage.Wrapper>
        )}
+       api={api => {
+        setFullpageApi(api); 
+      }}
        />
        </div>
     </main>

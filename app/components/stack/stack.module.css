@@ -6,8 +6,8 @@
 
 .frontContainer{
     padding: 5px;
-    width: 25vw;
-    height: 60vh;
+    width: 23vw;
+    height: 55vh;
     background: linear-gradient(#f4f4f4, #f4f4f4) padding-box,
     linear-gradient(180deg, rgba(255,112,197,1) 40%, rgba(223,190,255,1) 80%, rgba(132,255,252,1) 100%) border-box;
     border-radius: 5px;
@@ -17,8 +17,8 @@
 
 .backContainer{
     padding: 5px;
-    width: 25vw;
-    height: 60vh;
+    width: 23vw;
+    height: 55vh;
     background: linear-gradient(#f4f4f4, #f4f4f4) padding-box,
     linear-gradient(180deg, rgba(255,112,197,1) 40%, rgba(223,190,255,1) 80%, rgba(132,255,252,1) 100%) border-box;
     border-radius: 5px;
@@ -28,8 +28,8 @@
 
 .otherContainer{
     padding: 5px;
-    width: 25vw;
-    height: 60vh;
+    width: 23vw;
+    height: 55vh;
     background: linear-gradient(#f4f4f4, #f4f4f4) padding-box,
     linear-gradient(180deg, rgba(255,112,197,1) 40%, rgba(223,190,255,1) 80%, rgba(132,255,252,1) 100%) border-box;
     border-radius: 5px;
@@ -39,7 +39,7 @@
 
 
 .svg{
-    width: 180px;
+    width: 150px;
     margin: auto;
 }
 
@@ -55,7 +55,7 @@
 .boxTitle{
     margin: auto;
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
 .titleContainer{
