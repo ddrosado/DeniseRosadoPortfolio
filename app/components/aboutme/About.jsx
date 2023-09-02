@@ -6,8 +6,11 @@ export default function About() {
   return (
     <div className="section" data-anchor="about">
     <div className={styles.aboutContainer}>
-    {/* Estudio ingeniería en Sistemas en la UTN y me formé al mismo tiempo en distintas tecnologías web actuales. */}
+    Soy de Capital Federal, Buenos Aires, Argentina
+    Estudiante de Ingeniería en Sistemas en la Universidad Tecnológica Nacional (UTN FRBA)
+    <div className={styles.overflow}>
     <div className={styles.topContainer}></div>
+
     <div className={styles.bottomContainer}>
     <div className={styles.ocean}>
     <div class={styles.wave}></div>
@@ -20,6 +23,7 @@ export default function About() {
     </div>
 
 
+    </div>
     </div>
     </div>
   )

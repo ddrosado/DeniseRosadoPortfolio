@@ -17,7 +17,7 @@ export default function Technologies() {
     
     <div className={styles.descriptionText}>
     <h3 className={styles.aboutText}>
-    I enjoy working in a collaborative environment that encourages continuous learning. I easily adapt to new contexts, and I believe that effective communication and collaboration are key to achieving goals. I'm always ready to contribute ideas, and working together with a team enhances my productivity. Hope we can work together soon! 
+    I enjoy working in a collaborative environment that encourages continuous learning. I easily adapt to new contexts, and I believe that effective communication and collaboration are key to achieving goals. Im always ready to contribute ideas, and working together with a team enhances my productivity. Hope we can work together soon! 
     </h3>
     </div>
     </div>

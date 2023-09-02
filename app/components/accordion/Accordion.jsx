@@ -182,3 +182,6 @@ export default function Accordion() {
     </div>
   )
 }
+
+
+// que opinas de la modalidad hibrida
