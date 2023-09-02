@@ -173,7 +173,7 @@ export default function Accordion() {
       aria-labelledby="headingFour"
       data-te-parent="#accordionExample">
       <div class="px-5 py-4">
-        Porque pongo todo de mí en todo lo que hago. La programación es algo que me apasiona y disfruto mucho de hacer, me emociona saber que cada día tengo la oportunidad de aprender algo nuevo que me va a ayudar a resolver los problemas de una forma más eficaz.
+        Porque pongo todo de mí en todo lo que hago. La programación es algo que me apasiona y disfruto mucho de hacer, me emociona saber que cada día tengo la oportunidad de aprender algo nuevo que me va a ayudar a resolver los problemas de una forma más eficaz. Soy alguien que nunca se rinde ante un problema, y aunque tenga que buscar por cielo y tierra siempre consigo la solución.
       </div>
     </div>
   </div>
