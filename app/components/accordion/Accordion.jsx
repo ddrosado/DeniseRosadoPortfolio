@@ -51,7 +51,7 @@ export default function Accordion() {
       aria-labelledby="headingOne"
       data-te-parent="#accordionExample">
       <div class="px-5 py-4">
-        Estoy haciendo un proyecto fullstack, un directorio el cual me facilita acceder a recursos visuales que me gustaron anteriormente. Las tecnologías que utilizo en este proyecto son React, React Query, Next.js, C# .NET, y PostgreSQL.
+        Estoy haciendo un proyecto fullstack, un directorio el cual me facilita acceder a recursos visuales que me gustaron anteriormente. Las tecnologías que utilizo en este proyecto son React, React Query, Next.js, Typescript, C# .NET, y PostgreSQL.
       </div>
     </div>
   </div>
@@ -148,7 +148,7 @@ export default function Accordion() {
         data-te-target="#collapseFour"
         aria-expanded="false"
         aria-controls="collapseFour">
-        ¿Por qué deberíamos elegirte a vos?
+        ¿Qué consideras que te distingue?
         <span
           class="-mr-1 ml-auto h-5 w-5 shrink-0 rotate-[-180deg] fill-[#336dec] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 group-[[data-te-collapse-collapsed]]:fill-[#212529] motion-reduce:transition-none dark:fill-blue-300 dark:group-[[data-te-collapse-collapsed]]:fill-white">
           <svg
@@ -173,7 +173,9 @@ export default function Accordion() {
       aria-labelledby="headingFour"
       data-te-parent="#accordionExample">
       <div class="px-5 py-4">
-        Porque pongo todo de mí en todo lo que hago. La programación es algo que me apasiona y disfruto mucho de hacer, me emociona saber que cada día tengo la oportunidad de aprender algo nuevo que me va a ayudar a resolver los problemas de una forma más eficaz. Soy alguien que nunca se rinde ante un problema, y aunque tenga que buscar por cielo y tierra siempre consigo la solución.
+        Que me comprometo y esfuerzo al máximo en todo lo que hago. La programación es algo que me apasiona y disfruto de cada paso, tanto aprender como aplicar conocimientos. Me es super gratificante poder crear funcionalidades y ver que tengan un impacto real, por lo que mi forma de aprender suele ser a través de proyectos. Tengo un enfoque persistente y, ante un problema, aunque deba buscar en los rincones más recónditos de Internet, siempre encuentro la solución. 
+
+        Al mismo tiempo, considero súper importante ser parte de un equipo, ya que no solo aporta al conocimiento técnico, sino también a la sinergia que se logra cuando las personas trabajamos juntas hacia un objetivo común. Tuve la suerte de formar parte de algunos equipos de desarrollo, principalmente en entornos académicos, y al día de hoy mantengo estos vínculos que tuve oportunidad de construir gracias a estas experiencias. Me siento cómoda estableciendo relaciones efectivas con mis colegas, lo que me ayuda a adaptarme a nuevos entornos y, al mismo tiempo, aportar de manera constructiva a la dinámica del grupo. 
       </div>
     </div>
   </div>
