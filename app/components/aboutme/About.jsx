@@ -1,5 +1,7 @@
 import React from 'react'
 import styles from './about.module.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faGraduationCap, faLocationDot, faUsers, faGamepad} from '@fortawesome/free-solid-svg-icons'
 
 
 export default function About() {
@@ -8,10 +10,27 @@ export default function About() {
     <div className={styles.aboutContainer}>
     <div className={styles.overflow}>
     <div className={styles.topContainer}>
+
+    <div className={styles.block}>
+    <FontAwesomeIcon icon={faLocationDot} className={styles.icon}/>
     Soy de Capital Federal, Buenos Aires, Argentina
+    </div>
+    <div className={styles.block}>
+    <FontAwesomeIcon icon={faGraduationCap} className={styles.icon}/>
     Estudio Ingeniería en Sistemas en la Universidad Tecnológica Nacional (UTN FRBA)
+    </div>
+    <div className={styles.block}>
+    <FontAwesomeIcon icon={faGamepad} className={styles.icon}/>
     En mi tiempo libre me gusta jugar videojuegos y entrenar
-    Me gusta mucho trabajar en equipo y estar en contacto con gente
+    </div>
+    <div className={styles.block}>
+    <FontAwesomeIcon icon={faUsers} className={styles.icon}/>
+    Me gusta trabajar en equipo y estar en contacto con gente
+    </div>
+    
+    
+    
+    
     </div>
 
     <div className={styles.bottomContainer}>

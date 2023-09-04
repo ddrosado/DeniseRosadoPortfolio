@@ -3,6 +3,7 @@ import styles from './stack.module.css'
 import Frontend from '../svgs/Frontend'
 import Backend from '../svgs/Backend'
 import Other from '../svgs/Other'
+import Wave from '../svgs/Wave'
 // import Soft from '../svgs/Soft'
 
 const technologies = {
@@ -59,11 +60,6 @@ export default function Stack() {
       </div>
 
        </div>
-
-       {/* <div className={styles.softContainer}>
-        <Soft/>
-        Soft skills
-       </div> */}
     </div>
   )
 }

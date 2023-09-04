@@ -70,3 +70,22 @@
     display: inline-block;
     width: 100%;   
 }
+
+.block{
+    display: flex;
+    padding: 10px;
+  flex-direction: row;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  margin: 1vh;
+  justify-content: left;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    width: 58vw;
+}
+
+.icon{
+    display: inline;
+    margin-right: 10px;
+    margin-left: 5px;
+    padding-top:3px;
+}

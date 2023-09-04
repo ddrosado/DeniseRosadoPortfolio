@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './technologies.module.css'
 import Stack from '../stack/Stack'
+import Wave from '../svgs/Wave'
 
 
 export default function Technologies() {
@@ -25,6 +26,7 @@ export default function Technologies() {
     
     <Stack/>
     </div>
+    <Wave/>
     </div>
 
   )
