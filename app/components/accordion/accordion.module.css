@@ -1,0 +1,7 @@
+.paragraph{
+    margin-bottom: 1em;
+}
+
+.paragraph:last-of-type{
+    margin-bottom: 0em;
+}

@@ -11,14 +11,14 @@ export default function Technologies() {
 
     <div className={styles.descriptionContainer}>
       <h1 className={styles.aboutTitle}>
-        <span># </span>
-        Skills
+        <span></span>
+        Habilidades técnicas
         </h1>
       
     
     <div className={styles.descriptionText}>
     <h3 className={styles.aboutText}>
-    I enjoy working in a collaborative environment that encourages continuous learning. I easily adapt to new contexts, and I believe that effective communication and collaboration are key to achieving goals. Im always ready to contribute ideas, and working together with a team enhances my productivity. Hope we can work together soon! 
+    Además de mis estudios en Ingeniería, me formé en diferentes tecnologías actuales de desarrollo web y aprendí herramientas claves para el control de versiones.
     </h3>
     </div>
     </div>
@@ -26,7 +26,7 @@ export default function Technologies() {
     
     <Stack/>
     </div>
-    <Wave className={styles.backgroundWave}/>
+
     </div>
 
   )

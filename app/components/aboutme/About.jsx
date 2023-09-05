@@ -11,6 +11,23 @@ export default function About() {
     <div className={styles.overflow}>
     <div className={styles.topContainer}>
 
+    <div className={styles.AleftContainer}>
+
+    <h1 className={styles.aboutTitle}>
+      <p>Sobre mí</p>
+      </h1>
+
+    </div>
+
+
+
+
+
+
+
+
+    <div className={styles.ArightContainer}>
+
     <div className={styles.block}>
     <FontAwesomeIcon icon={faLocationDot} className={styles.icon}/>
     Soy de Capital Federal, Buenos Aires, Argentina
@@ -25,9 +42,13 @@ export default function About() {
     </div>
     <div className={styles.block}>
     <FontAwesomeIcon icon={faUsers} className={styles.icon}/>
-    Me gusta trabajar en equipo y estar en contacto con gente
+    Disfruto colaborar en equipos y mantener una interacción cercana con mis compañeros
     </div>
     
+
+    </div>
+
+
     
     
     
