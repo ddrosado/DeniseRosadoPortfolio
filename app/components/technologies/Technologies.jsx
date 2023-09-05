@@ -26,7 +26,7 @@ export default function Technologies() {
     
     <Stack/>
     </div>
-    <Wave/>
+    <Wave className={styles.backgroundWave}/>
     </div>
 
   )
