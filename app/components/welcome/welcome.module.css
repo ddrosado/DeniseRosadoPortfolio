@@ -1,29 +1,28 @@
 .welcomeContainer{
     display: flex;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background: rgb(255,112,197);
     background: linear-gradient(90deg, #ff70c5 40%, #dfbeff 80%, #84fffc 100%);
+    justify-content: center;
+    align-items: center; 
 }
 
 .titleContainer{
-  /* border: 1px solid green; */
   display: flex;
   flex-direction: column;
-  margin: auto;
   background-color: #f4f4f4;
   border-radius: 10px;
-  /* margin-top: 11vh; */
   width: 90vw;
   height: 90vh;
-  justify-content: center;
+  justify-content: space-between;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
 
 
 .welcomeTitle{
   line-height: 1.2;
-  font-size: 50px;
+  font-size: 3.1rem;
   font-weight: 650;
   margin: 0px;
   padding: 0px;
@@ -38,7 +37,7 @@
 }
 
 .welcomeSubtitle{
-  font-size: 22px;
+  font-size: 1.4rem;
 }
 
 .image{
@@ -50,25 +49,29 @@
 
 .rightContainer{
   /* border: 1px solid fuchsia; */
+  /* border: 1px solid red; */
   display: flex;
   justify-content: center; 
   align-items: center;
 }
 
 .descriptionContainer{
+  /* border: 1px solid green; */
   display: flex;
   /* border: 1px solid cyan; */
   justify-content: space-around;
-  padding: 3rem;
-  width: 100%;
-  height: 100%;
+  align-items: center;
+  width: 90vw;
+  height: 100vh;
 }
 
 .leftContainer{
+  /* border: 1px solid blue; */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   width: 40vw;
+  height: 70vh;
   padding: 0px 0px 0px 0px;
   /* border: 1px solid red; */
 }
