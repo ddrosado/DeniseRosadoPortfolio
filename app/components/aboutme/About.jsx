@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './about.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faGraduationCap, faLocationDot, faUsers, faGamepad} from '@fortawesome/free-solid-svg-icons'
+import {faGraduationCap, faLocationDot, faUsers, faGamepad, faHeart} from '@fortawesome/free-solid-svg-icons'
 
 
 export default function About() {
@@ -16,6 +16,8 @@ export default function About() {
     <h1 className={styles.aboutTitle}>
       <p>Sobre mí</p>
       </h1>
+
+
 
     </div>
 
@@ -38,11 +40,15 @@ export default function About() {
     </div>
     <div className={styles.block}>
     <FontAwesomeIcon icon={faGamepad} className={styles.icon}/>
-    En mi tiempo libre me gusta jugar videojuegos y entrenar
+    En mi tiempo libre me gusta jugar videojuegos, entrenar y dibujar
     </div>
     <div className={styles.block}>
     <FontAwesomeIcon icon={faUsers} className={styles.icon}/>
     Disfruto colaborar en equipos y mantener una interacción cercana con mis compañeros
+    </div>
+    <div className={styles.block}>
+    <FontAwesomeIcon icon={faHeart} className={styles.icon}/>
+    Emocionada por explorar nuevas oportunidades y contribuir a nuevos proyectos!
     </div>
     
 

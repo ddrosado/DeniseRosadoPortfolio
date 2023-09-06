@@ -42,7 +42,7 @@ export default function Welcome() {
        <a href='/drosadocv.pdf' 
        download='drosadocv'>
         <button
-        className={styles.downloadButton}>Resume</button>
+        className={styles.downloadButton}>Descargar CV</button>
       </a>
       </div>
 

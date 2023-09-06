@@ -8,6 +8,8 @@
   background-position: bottom;
   background-repeat: no-repeat;
   z-index: -1; /* Push it behind the content */
+  align-items: center;
+  justify-content: center;
 }
 
 .aboutTitle{
@@ -24,19 +26,19 @@
 }
 
 .descriptionContainer{
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
-    width: 91.2vw;
+    width: 95vw;
+    height: 95vh;
 }
 
 .descriptionText{
-    border: 1px solid blue;
     display: flex;
 }
 
 .aboutText{
     font-size: 1.3rem;
+    padding-bottom: 2rem;
 }
 
 .stack{
