@@ -4,4 +4,27 @@
     /* background: rgb(132,255,252);
     background: linear-gradient(210deg, rgba(132,255,252,1) 0%, rgba(223,190,255,1) 50%, rgba(255,112,197,1) 100%); */
     background-color: #f4f4f4;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftContainer{
+    /* border: 1px solid red; */
+    display: flex;
+    width: 50vw;
+    height: 100%;
+    align-items: center; 
+    justify-content: center;
+}
+
+.rightContainer{
+    /* border: 1px solid blue; */
+    display: flex;
+    width: 50vw;
+    height: 100%;
+    background-color: #f4f4f4;
+}
+
+.accordionContainer{
+    width: 48vw;
 }

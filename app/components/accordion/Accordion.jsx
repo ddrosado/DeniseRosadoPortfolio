@@ -51,7 +51,8 @@ export default function Accordion() {
       aria-labelledby="headingOne"
       data-te-parent="#accordionExample">
       <div class="px-5 py-4">
-        Estoy haciendo un proyecto fullstack, un directorio el cual me facilita acceder a recursos visuales que me gustaron anteriormente. Las tecnologías que utilizo en este proyecto son React, React Query, Next.js, Typescript, C# .NET, y PostgreSQL.
+        Todavía estoy construyendo mi portafolio. En el mismo estoy utilizando Next.js, React, Tailwind, CSS y varias librerías de componentes visuales.
+        {/* Estoy haciendo un proyecto fullstack, un directorio el cual me facilita acceder a recursos visuales que me gustaron anteriormente. Las tecnologías que utilizo en este proyecto son React, React Query, Next.js, Typescript, C# .NET, y PostgreSQL. */}
       </div>
     </div>
   </div>
@@ -174,16 +175,16 @@ export default function Accordion() {
       data-te-parent="#accordionExample">
       <div class="px-5 py-4">
         <p className={styles.paragraph}>
-          Me comprometo y esfuerzo al máximo en todo lo que hago. La programación es algo que me apasiona y disfruto de cada paso del proceso, tanto aprender como aplicar conocimientos. Me es super gratificante poder crear funcionalidades y ver que tengan un impacto real, por lo que mi forma de aprender suele ser a través de proyectos. Tengo un enfoque persistente y, ante un problema, aunque deba buscar en los rincones más recónditos de Internet, siempre utilizo todos los recursos para poder encontrar una solución.
+          Me comprometo y esfuerzo al máximo en todo lo que hago. La programación es algo que me apasiona y disfruto de cada paso del proceso, tanto aprender como aplicar conocimientos. Tengo un enfoque persistente y, ante un problema, aunque deba buscar en los rincones más recónditos de Internet, siempre utilizo todos los recursos para poder encontrar una solución.
         </p>
 
         <p className={styles.paragraph}>
           Siempre prefiero trabajar con un equipo en el que tengamos un objetivo en común, comunicación, diversidad de opiniones y empatía por el otro. Creo que el trabajo conjunto potencia tanto la productividad como el aprendizaje, y también te brinda la oportunidad de compartir un momento agradable al final de la jornada. 
         </p>
         
-        <p className={styles.paragraph}>
+        {/* <p className={styles.paragraph}>
           Tuve la suerte de formar parte de algunos equipos de desarrollo, principalmente en entornos académicos, y al día de hoy mantengo estos vínculos que tuve oportunidad de construir gracias a estas experiencias. Me siento cómoda estableciendo relaciones efectivas con mis compañeros, ya que me ayuda tanto a introducirme en nuevos entornos como a fomentar una atmósfera colaborativa en el equipo.
-          </p>
+          </p> */}
       </div>
     </div>
   </div>

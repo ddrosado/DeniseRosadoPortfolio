@@ -7,7 +7,23 @@ export default function Contact() {
   return (
     <div className="section" data-anchor="contact">
     <div className={styles.contactContainer}>
+
+    <div className={styles.leftContainer}>
+    
+    <div className={styles.accordionContainer}>
     <Accordion/>
+    </div>
+
+
+    </div>
+
+
+
+    <div className={styles.rightContainer}>
+    
+    </div>
+    
+  
     </div>
     </div>
   )
