@@ -133,7 +133,7 @@ export default function Accordion() {
       aria-labelledby="headingThree"
       data-te-parent="#accordionExample">
       <div class="px-5 py-4">
-        Gracias por ver mi portfolio, todavía está en construcción.
+        Gracias por visitar mi portfolio! todavía está en construcción.
       </div>
     </div>
   </div>
