@@ -51,7 +51,7 @@ export default function Accordion() {
       aria-labelledby="headingOne"
       data-te-parent="#accordionExample">
       <div class="px-5 py-4">
-        Todavía estoy construyendo mi portafolio. En el mismo estoy utilizando Next.js, React, Tailwind, CSS y varias librerías de componentes visuales.
+        Todavía estoy construyendo mi portafolio. En el mismo estoy utilizando Next.js, React, Tailwind, CSS y varias librerías de componentes visuales. También comence un pequeño proyecto para aprender Typescript y React Query.
         {/* Estoy haciendo un proyecto fullstack, un directorio el cual me facilita acceder a recursos visuales que me gustaron anteriormente. Las tecnologías que utilizo en este proyecto son React, React Query, Next.js, Typescript, C# .NET, y PostgreSQL. */}
       </div>
     </div>
@@ -108,7 +108,7 @@ export default function Accordion() {
         data-te-target="#collapseThree"
         aria-expanded="false"
         aria-controls="collapseThree">
-        ¿Tecnología favorita?
+        ¿Está terminado tu porfolio?
         <span
           class="-mr-1 ml-auto h-5 w-5 shrink-0 rotate-[-180deg] fill-[#336dec] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 group-[[data-te-collapse-collapsed]]:fill-[#212529] motion-reduce:transition-none dark:fill-blue-300 dark:group-[[data-te-collapse-collapsed]]:fill-white">
           <svg
@@ -133,7 +133,7 @@ export default function Accordion() {
       aria-labelledby="headingThree"
       data-te-parent="#accordionExample">
       <div class="px-5 py-4">
-        Me encanta React.
+        Gracias por ver mi portfolio, todavía está en construcción.
       </div>
     </div>
   </div>
