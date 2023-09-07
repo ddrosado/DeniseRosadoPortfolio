@@ -22,6 +22,8 @@
     display: flex;
     width: 50vw;
     height: 100%;
+    align-items: center; 
+    justify-content: center;
     background-color: #f4f4f4;
 }
 

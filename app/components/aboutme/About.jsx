@@ -62,9 +62,9 @@ export default function About() {
 
     <div className={styles.bottomContainer}>
     <div className={styles.ocean}>
-    <div class={styles.wave}></div>
-    <div class={styles.wave}></div>
-    <div class={styles.wave}></div>
+    <div className={styles.wave}></div>
+    <div className={styles.wave}></div>
+    <div className={styles.wave}></div>
     </div>
 
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './contact.module.css'
 import Accordion from '../accordion/Accordion'
+import SocialMedia from '../socialMedia/SocialMedia'
 
 
 export default function Contact() {
@@ -20,7 +21,7 @@ export default function Contact() {
 
 
     <div className={styles.rightContainer}>
-    
+    <SocialMedia/>
     </div>
     
   
