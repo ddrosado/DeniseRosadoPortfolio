@@ -1,8 +1,29 @@
 .projectsContainer{
-    width: 100%;
-    height: 100vh;
     background: rgb(132,255,252);
     background: linear-gradient(0deg, rgba(132,255,252,1) 0%, rgba(223,190,255,1) 50%, rgba(255,112,197,1) 100%);
-    /* background: rgb(255,112,197);
-    background: linear-gradient(90deg, rgba(255,112,197,1) 0%, rgba(223,190,255,1) 25%, rgba(132,255,252,1) 50%, rgba(223,190,255,1) 75%, rgba(255,112,197,1) 100%); */
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+  }
+
+  .myProjectsContainer{
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  width: 90vw;
+  height: 80vh;
+  justify-content: space-between;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.projectsTitle{
+  text-align: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 3rem;
+    color: #f4f4f4;
 }
