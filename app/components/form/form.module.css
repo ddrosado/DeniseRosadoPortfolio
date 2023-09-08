@@ -1,0 +1,11 @@
+.formContainer{
+    border: 1px solid pink;
+    width: 70vh;
+    height: 70vh;
+}
+
+.form{
+    border: 1px solid cyan;
+    display: flex;
+    flex-direction: column;
+}
