@@ -5,6 +5,7 @@
     height: 100vh;
     background: linear-gradient(90deg, #ff70c5 40%, #dfbeff 80%, #84fffc 100%);
     overflow: hidden !important;
+    z-index: -1;
     /* border: 4px solid yellow; */
     /* background: linear-gradient(180deg, rgba(255,112,197,1) 40%, rgba(223,190,255,1) 80%, rgba(132,255,252,1) 100%); */
 }
@@ -17,11 +18,12 @@
 .topContainer{
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     width: 100%;
-    height: 80vh;
-    background: rgba(255, 112, 198, 0);
-    background: linear-gradient(90deg, #ff70c5 40%, #dfbeff 80%, #84fffc 100%);
+    height: 90vh;
+    border: 2px solid blue;
 }
+
 
 .ocean{
     display: inline-block;
@@ -31,6 +33,7 @@
     bottom: 0;
     left: 0;
     right: 0;
+    z-index: 1;
     background: linear-gradient(90deg, #ff70c5 40%, #dfbeff 80%, #84fffc 100%); 
     overflow: hidden;
 }
@@ -68,6 +71,7 @@
 
 
 .bottomContainer{
+    /* border: 2px solid yellow; */
     display: inline-block;
     width: 100%;   
 }
@@ -78,10 +82,22 @@
   flex-direction: row;
   background-color: #f4f4f4;
   border-radius: 5px;
-  margin: 1vh;
   justify-content: left;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
-    width: 56vw;
+    width: 50vw;
+}
+
+.about{
+    /* border: 2px solid magenta; */
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    justify-content: left;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    width: 40vw;
+    height: 100%;
 }
 
 .icon{
@@ -96,7 +112,7 @@
     justify-content: center;
     font-weight: 600;
     font-size: 3rem;
-    color: #f4f4f4;
+    color: black;
 }
 
 .colorChange{
@@ -104,13 +120,34 @@
 }
 
 .ArightContainer{
-    /* border: 1px solid blue; */
-    width: 58vw;
+    /* border: 2px solid orange; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 55vw;
+    height: 85vh;
+    z-index: 2;
+}
+
+.AleftContainer{    
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    width: 45vw;
+    height: 85vh;
+    z-index: 2;
+}
+
+.aboutPic{
+    border-radius: 100%;
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
     margin: auto;
 }
 
-.AleftContainer{
-    /* border: 1px solid red; */
-    margin: auto;
-    width: 25vw;
+.paragraph{
+    margin-top: 10px
 }

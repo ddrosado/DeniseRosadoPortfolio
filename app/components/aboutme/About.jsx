@@ -2,6 +2,8 @@ import React from 'react'
 import styles from './about.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faGraduationCap, faLocationDot, faUsers, faGamepad, faHeart} from '@fortawesome/free-solid-svg-icons'
+import icon from '../../../public/icon.png'
+import Image from 'next/image'
 
 
 export default function About() {
@@ -13,10 +15,19 @@ export default function About() {
 
     <div className={styles.AleftContainer}>
 
+      <div className={styles.about}>
     <h1 className={styles.aboutTitle}>
       <p>Sobre mí</p>
       </h1>
-
+      <Image
+      src={icon} alt="About Photo" 
+      className={styles.aboutPic}
+      width={200}
+      />
+    <p>Crecí en un ambiente donde la tecnología era tema habitual y tuve la suerte de tener una computadora desde muy chica. Mis primeros acercamientos fueron modificando CSS de páginas simples que veía, y me encantaba ver cómo podía crear o destruir cosas. </p>
+    
+    <p className={styles.paragraph}>En cuanto tuve la oportunidad de estudiar me anoté a Ingeniería en Sistemas, y más tarde fui descubriendo qué áreas de la tecnología me llamaban realmente, así fue como descubri el desarrollo web. </p>
+    </div>
 
 
     </div>
@@ -48,7 +59,7 @@ export default function About() {
     </div>
     <div className={styles.block}>
     <FontAwesomeIcon icon={faHeart} className={styles.icon}/>
-    Emocionada por explorar nuevas oportunidades y contribuir a nuevos proyectos!
+    Adquiero conocimientos con rapidez y estoy constantemente actualizando mis habilidades para estar al tanto de las nuevas herramientas
     </div>
     
 
