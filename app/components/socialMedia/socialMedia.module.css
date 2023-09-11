@@ -84,4 +84,28 @@
     color: #fff;
   }
   
+  .socialContainer {
+    display: flex;
+    flex-direction: row;
+    width: 30vw;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vh;
+  }
   
+  .socialLi {
+    width: 100%; /* Set width to auto */
+    list-style-type: none;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .socialUl {
+    display: flex;
+    padding: 15px;
+    border-radius: 100%;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  }

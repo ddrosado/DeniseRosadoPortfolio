@@ -22,8 +22,9 @@
     display: flex;
     width: 50vw;
     height: 100%;
+    flex-direction: column;
     align-items: center; 
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: #f4f4f4;
 }
 

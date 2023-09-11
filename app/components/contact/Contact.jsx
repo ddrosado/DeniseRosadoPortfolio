@@ -23,7 +23,6 @@ export default function Contact() {
 
     <div className={styles.rightContainer}>
     <Form/>
-    <SocialMedia/>
     </div>
     
   

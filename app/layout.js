@@ -1,10 +1,13 @@
 import { Roboto } from "next/font/google";
 import './globals.css'
 import { Inter } from 'next/font/google'
+import { Open_Sans } from "next/font/google";
+import { Poppins } from "next/font/google";
+import { Raleway } from "next/font/google";
 import "tw-elements/dist/css/tw-elements.min.css";
 import Head from 'next/head';
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Open_Sans({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Denise Rosado',

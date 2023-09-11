@@ -179,7 +179,7 @@ export default function Accordion() {
         </p>
 
         <p className={styles.paragraph}>
-          Siempre prefiero trabajar con un equipo en el que tengamos un objetivo en común, comunicación, diversidad de opiniones y empatía por el otro. Creo que el trabajo conjunto potencia tanto la productividad como el aprendizaje, y también te brinda la oportunidad de compartir un momento agradable al final de la jornada. 
+          Siempre prefiero trabajar con un equipo con el cual tengamos un objetivo en común, comunicación, diversidad de opiniones y empatía por el otro. Creo que el trabajo conjunto potencia tanto la productividad como el aprendizaje, y también te brinda la oportunidad de compartir un momento agradable al final de la jornada. 
         </p>
         
         {/* <p className={styles.paragraph}>
