@@ -45,7 +45,7 @@ export default function Welcome() {
         <button
         className={styles.downloadButton}>Descargar CV</button>
       </a>
-      <SocialMedia/>
+      {/* <SocialMedia/> */}
       </div>
 
 
