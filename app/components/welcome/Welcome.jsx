@@ -25,7 +25,7 @@ export default function Welcome() {
 
           
         <h2 className={styles.welcomeSubtitle}>
-          Hola! <Image src={manitoholi} className={styles.manito} width={100}/> Soy 
+          Hola! <Image src={manitoholi} className={styles.manito} width={100} alt='Denise'/> Soy 
         <p className={styles.welcomeTitle}> Denise Rosado,
         </p></h2>
        <h1 className={styles.bolder}>FullStack Developer</h1> 

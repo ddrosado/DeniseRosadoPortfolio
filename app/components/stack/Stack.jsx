@@ -16,7 +16,7 @@ const technologies = {
 export default function Stack() {
   return (
     <div className={styles.stackContainer}>
-  {stackData.map((stack) => (
+{stackData.map((stack) => (
     <div key={stack.id} className={styles.technologieContainer}>
       <div className={styles.svg}>{stack.svg}</div>
       <div className={styles.titleContainer}>
