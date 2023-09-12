@@ -14,9 +14,9 @@ export default function About() {
     <div className={styles.aboutContainer}>
       
     <div className={styles.overflow}>
-    {/* <h1 className={styles.aboutTitle}>
+    <h1 className={styles.aboutTitle}>
       <p>Sobre mí</p>
-      </h1> */}
+      </h1>
     <div className={styles.topContainer}>
 
     <div className={styles.AleftContainer}>

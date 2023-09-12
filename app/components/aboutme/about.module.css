@@ -15,6 +15,11 @@
 .overflow{
     display: inline-block; 
     width: 100%;
+    /* border: 1px solid orange; */
+    height: 90vh;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
 }
 
 .topContainer{
@@ -106,6 +111,8 @@
     justify-content: left;
     width: 40vw;
     height: 100%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+ 
 }
 
 .icon{
@@ -118,13 +125,17 @@
 .aboutTitle{
     text-align: center;
     justify-content: center;
-    font-weight: 600;
-    font-size: 3rem;
-    color: black;
+    font-weight: 650;
+    font-size: 3.5rem;
+    color: #f4f4f4;
+    z-index: 0;
+    position: relative;
+    right: 10vh;
+    text-transform: uppercase;
 }
 
 .colorChange{
-    color: #f4f4f4;
+    color: #f4f4f47b;
 }
 
 .ArightContainer{

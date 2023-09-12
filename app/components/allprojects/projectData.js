@@ -20,7 +20,7 @@ export const projectData = [
     images: image21,
     technologies: ['Next.js', 'React', 'Redux', 'Express', 'Node', 'PostgreSQL', 'Firebase', 'Tailwind', 'Javascript'],
     github: 'https://github.com/ddrosado/MightyMonkeyPF',
-    deploy: 'deploy.com'
+    deploy: 'https://mighty-monkey-pf.vercel.app/home'
     },
     // { id: 3, 
     //     title: 'Card 2', 
