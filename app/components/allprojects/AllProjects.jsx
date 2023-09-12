@@ -24,9 +24,14 @@ export default function AllProjects() {
     {/* <p>{card.description}</p>
     <p>{card.id}</p> */}
 
+<div className={styles.buttonContainer}>
 <a href={card.github} className={styles.seeMore}>
   Repositorio
 </a>
+<a href={card.deploy} className={styles.seeMore}>
+  Deploy
+</a>
+</div>
   </div>
 ))}
     

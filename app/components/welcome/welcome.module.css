@@ -131,3 +131,7 @@
   padding-bottom: 5px;
 }
 
+.buttonContainer{
+  display: flex;
+  flex-direction: row;
+}

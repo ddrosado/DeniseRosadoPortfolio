@@ -87,11 +87,10 @@
   .socialContainer {
     display: flex;
     flex-direction: row;
-    width: 30vw;
+    width: 15vw;
     align-items: center;
     justify-content: space-between;
-    width: 80vh;
-  }
+    }
   
   .socialLi {
     width: 100%; /* Set width to auto */
@@ -103,9 +102,9 @@
   
   .socialUl {
     display: flex;
-    padding: 15px;
-    border-radius: 100%;
-    background-color: #FFFFFF;
-    justify-content: space-between;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    padding: 10px;
+    border-radius: 20%;
+    /* background-color: #ff70c68e; */
+    justify-content: space-evenly;
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px; */
   }

@@ -6,6 +6,7 @@ import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 import manitoholi from '../../../public/manitoholi.png'
 import Nav from '../nav/Nav'
+import SocialMedia from '../socialMedia/SocialMedia'
 config.autoAddCss = false
 
 export default function Welcome() {
@@ -44,6 +45,7 @@ export default function Welcome() {
         <button
         className={styles.downloadButton}>Descargar CV</button>
       </a>
+      <SocialMedia/>
       </div>
 
 
