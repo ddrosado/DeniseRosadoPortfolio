@@ -3,6 +3,7 @@ import styles from './contact.module.css'
 import Accordion from '../accordion/Accordion'
 import SocialMedia from '../socialMedia/SocialMedia'
 import Form from '../form/Form'
+import Info from '../info/Info'
 
 
 export default function Contact() {
@@ -22,7 +23,10 @@ export default function Contact() {
 
 
     <div className={styles.rightContainer}>
-    <Form/>
+    {/* <Form/> */}
+
+    <Info/>
+
     </div>
     
   
