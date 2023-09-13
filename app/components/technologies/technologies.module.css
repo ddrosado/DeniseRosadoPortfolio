@@ -15,7 +15,7 @@
 .aboutTitle{
   font-size: 3rem;
   font-weight: 600;
-  background-color: rgba(255,112,197,1);
+  background-color: #ff70c5;
   /* background-image: linear-gradient(45deg, rgba(255,112,197,1), rgb(0, 255, 251)); */
   background-size: 100%;
   background-clip: border-box;

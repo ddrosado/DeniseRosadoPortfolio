@@ -9,6 +9,7 @@ import Info from '../info/Info'
 export default function Contact() {
   return (
     <div className="section" data-anchor="contact">
+    <div className={styles.contactBackground}>
     <div className={styles.contactContainer}>
 
     <div className={styles.leftContainer}>
@@ -30,6 +31,7 @@ export default function Contact() {
     </div>
     
   
+    </div>
     </div>
     </div>
   )
