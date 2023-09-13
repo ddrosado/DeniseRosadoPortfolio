@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './stack.module.css'
 import { stackData } from './stackData'
+import Image from 'next/image';
 // import Soft from '../svgs/Soft'
 
 export default function Stack() {
@@ -13,12 +14,19 @@ export default function Stack() {
             <h2 className={styles.boxTitle}>{stack.title}</h2>
           </div>
           <div className={styles.content}>
-            {stack.stack.map((tech, index) => (
-              <span key={index} className={styles.span}>
-                {tech}
-              </span>
-            ))}
-          </div>
+      <div className={styles.technologiesContainer}>
+  {stack.icon.map((icon, index) => (
+    <div key={index} className={styles.techContainer}>
+      <div className={styles.techIcon}>
+        <Image src={icon} width={100} className={styles.techIcon} />
+      </div>
+      <div className={styles.techName}>
+        {stack.stack[index]} {/* Render the corresponding technology name */}
+      </div>
+    </div>
+  ))}
+  </div>
+</div>
         </div>
       ))}
     </div>

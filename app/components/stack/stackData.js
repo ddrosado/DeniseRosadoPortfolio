@@ -1,25 +1,49 @@
 import Backend from "../svgs/Backend";
 import Frontend from "../svgs/Frontend";
 import Other from "../svgs/Other";
+import React from 'react';
+import react from '../../../public/stack/react.png';
+import javascript from '../../../public/stack/javascript.png';
+import redux from '../../../public/stack/redux.png';
+import next from '../../../public/stack/next.png';
+import tailwind from '../../../public/stack/tailwind.png';
+import css from '../../../public/stack/css.png';
+import html from '../../../public/stack/html.png';
+import express from '../../../public/stack/express.png';
+import node from '../../../public/stack/node.png';
+import firebase from '../../../public/stack/firebase.png';
+import postgresql from '../../../public/stack/postgresql.png';
+import sequelize from '../../../public/stack/sequelize.png';
+import sql from '../../../public/stack/sql.png';
+import vercel from '../../../public/stack/vercel.png';
+import scrum from '../../../public/stack/scrum.png';
+import git from '../../../public/stack/git.png';
+import github from '../../../public/stack/github.png';
+import restapi from '../../../public/stack/restapi.png';
+import jest from '../../../public/stack/jest.png';
+
 
 export const stackData = [
     { 
         id: 1, 
         title: 'Front-End', 
         svg: <Frontend/>,
-        stack: ['React', 'JavaScript', 'Redux', 'Redux\u00A0Toolkit', 'Next.js', 'Tailwind', 'CSS', 'HTML']
+        stack: ['React', 'JavaScript', 'Redux', 'Next.js', 'Tailwind', 'CSS', 'HTML'],
+        icon: [react, javascript, redux, next, tailwind, css, html]
     },
     { 
         id: 2, 
         title: 'Back-End', 
         svg: <Backend/>,
-        stack: ['Express','Node.js', 'Sequelize', 'PostgreSQL', 'SQL', 'Firebase']
+        stack: ['Express','Node.js', 'Sequelize', 'PostgreSQL', 'SQL', 'Firebase'],
+        icon: [express, node, sequelize, postgresql, sql, firebase]
     },
     { 
         id: 3, 
-        title: 'Methodologies & Tools', 
+        title: 'Herramientas', 
         svg: <Other/>,
-        stack: ['Agile\u00A0Methodologies', 'GIT', 'GitHub', 'Testing', 'Jest', 'REST\u00A0API', 'Deployment']
+        stack: ['SCRUM', 'GIT', 'GitHub','Jest', 'REST\u00A0API'],
+        icon: [scrum, git, github, jest, restapi]
     },
     
   ];

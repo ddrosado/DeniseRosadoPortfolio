@@ -1,13 +1,13 @@
 .stackContainer{
     display: flex;
-    justify-content: space-between;
-    /* border: 1px solid black; */
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 .technologieContainer{
     padding: 5px;
     width: 25vw;
-    height: 75vh;
+    height: 80vh;
     background: linear-gradient(#f4f4f4, #f4f4f4) padding-box,
     linear-gradient(180deg, rgba(255,112,197,1) 40%, rgba(223,190,255,1) 80%, rgba(132,255,252,1) 100%) border-box;
     border-radius: 5px;
@@ -45,4 +45,38 @@
 
 .content{
     margin-top: 5px;
+}
+
+.techIcon{
+    display: block;
+    max-width: 100%; 
+    max-height: 50px; 
+    aspect-ratio: 1 / 1;
+    padding: 1px;
+}
+
+.techContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 7vw;
+    height: 13.5vh;
+    background-color: #ff70c62c;
+    border: 1px solid #ffc1f2b0;
+    border-radius: 3px;
+    padding: 5px;
+    justify-content: center;
+    transition: all .2s ease-in-out;
+}
+
+.technologiesContainer{
+    flex-wrap: wrap;
+    display: inline-flex;
+    gap: 1vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.techContainer:hover{
+    scale: 1.1;
 }
