@@ -6,8 +6,8 @@ export default function Projects() {
   return (
     <div className="section" data-anchor="projects">
     <div className={styles.projectsContainer}>
-    <h1 className={styles.projectsTitle}>Proyectos</h1>
     <div className={styles.myProjectsContainer}>
+    <h1 className={styles.projectsTitle}>Proyectos</h1>
     <AllProjects/>
     </div>
     </div>

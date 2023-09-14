@@ -6,7 +6,6 @@ import Image from 'next/image'
 export default function AllProjects() {
   return (
     <div className={styles.projects}>
-    
     {projectData.map((card) => (
   <div key={card.id} className={styles.card}>
     <Image
