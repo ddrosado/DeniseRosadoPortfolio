@@ -9,11 +9,13 @@ export default function Technologies() {
     <div className='section' data-anchor="stack">
     <div className={styles.technologiesContainer}>
 
-    <div className={styles.descriptionContainer}>
+      <div className={styles.titleContainer}>
       <h1 className={styles.aboutTitle}>
-        <span></span>
         Habilidades técnicas
         </h1>
+      </div>
+    <div className={styles.descriptionContainer}>
+
 
     
     <Stack/>

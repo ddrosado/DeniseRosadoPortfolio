@@ -7,7 +7,7 @@ import { Raleway } from "next/font/google";
 import "tw-elements/dist/css/tw-elements.min.css";
 import Head from 'next/head';
 
-const inter = Open_Sans({ subsets: ['latin'] })
+const inter = Raleway({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Denise Rosado',

@@ -23,7 +23,7 @@
 .projectsTitle{
   text-align: center;
     justify-content: center;
-    font-weight: 300;
-    font-size: 3rem;
-    color: #0000008e;
+    font-weight: 200;
+    font-size: 3.1rem;
+    text-transform: uppercase;
 }

@@ -5,7 +5,7 @@
     flex-direction: column;
     width: 100%;
     height: 100vh;
-    background: linear-gradient(90deg, rgba(255, 112, 198, 0.5) 40%, hsla(270, 100%, 87%, 0.5) 80%, rgba(133, 255, 253, 0.5) 100%);
+    background: linear-gradient(90deg, #ff70c680 40%, hsla(270, 100%, 87%, 0.5) 80%, rgba(133, 255, 253, 0.5) 100%);
     overflow: hidden !important;
     z-index: -1;
     align-items: center;
@@ -126,18 +126,14 @@
 .aboutTitle{
     text-align: center;
     justify-content: center;
-    font-weight: 300;
+    font-weight: 200;
     font-size: 3.1rem;
-    line-height: 1.1;
-    color: #1b1b1b;
     z-index: 0;
     position: relative;
     right: 10vh;
     margin-bottom: 25px;
-}
-
-.colorChange{
-    color: #f4f4f47b;
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.5) 80%, rgba(255, 255, 255, 0) 100%);
+    text-transform: uppercase;
 }
 
 .ArightContainer{

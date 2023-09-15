@@ -45,7 +45,8 @@ export default function Welcome() {
         <button
         className={styles.downloadButton}>Descargar CV</button>
       </a>
-      {/* <SocialMedia/> */}
+      <button
+        className={styles.contactButton}>Contactame</button>
       </div>
 
 

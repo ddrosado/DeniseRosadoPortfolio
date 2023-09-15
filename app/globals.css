@@ -16,10 +16,9 @@ overflow:auto;
  */
 
 
-/* body {
-font-family: 'Raleway', sans-serif;
-
-} */
+body {
+  color: #44403c;
+}
 
  .fp-watermark {
   display: none;
