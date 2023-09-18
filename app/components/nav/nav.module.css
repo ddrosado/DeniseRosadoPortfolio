@@ -4,11 +4,13 @@
     height: 10vh;
     /* position: fixed; */
     justify-content: center;
+    @media (max-width: 768px) {
+        display: none;
+    }
 }
 
 .ul{
     display: flex;  
-    /* border: 1px solid red; */
     justify-content: center;
     width: 100%;
 }

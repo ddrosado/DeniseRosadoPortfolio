@@ -17,6 +17,11 @@
   height: 90vh;
   justify-content: space-evenly;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  @media (max-width: 768px) {
+    width: 95vw;
+    border: 2px solid red;
+    flex-wrap: wrap;
+    }
 }
 
 
@@ -69,6 +74,10 @@
   align-items: center;
   width: 90vw;
   height: 100vh;
+  @media (max-width: 768px) {
+  flex-direction: column;
+  flex-wrap: wrap;
+  }
 }
 
 .leftContainer{

@@ -18,6 +18,7 @@ export default function Home() {
         <ReactFullpage
         navigation
         anchors = {['home', 'about', 'stack', 'projects', 'contact']}
+        responsiveWidth = {['900']}
         render={comp => (
           <ReactFullpage.Wrapper>
         <Welcome/>
