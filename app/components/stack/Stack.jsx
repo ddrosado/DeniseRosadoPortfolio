@@ -21,7 +21,7 @@ export default function Stack() {
         <Image src={icon} width={100} className={styles.techIcon} />
       </div>
       <div className={styles.techName}>
-        {stack.stack[index]} {/* Render the corresponding technology name */}
+        {stack.stack[index]} 
       </div>
     </div>
   ))}
