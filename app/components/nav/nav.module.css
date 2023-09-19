@@ -4,7 +4,7 @@
     height: 10vh;
     /* position: fixed; */
     justify-content: center;
-    @media (max-width: 768px) {
+    @media (max-width: 800px) {
         display: none;
     }
 }
