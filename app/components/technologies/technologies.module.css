@@ -16,6 +16,12 @@
   font-weight: 200;
   font-size: 3.1rem;
   text-transform: uppercase;
+  @media (max-width: 800px) {
+    flex-wrap: wrap;
+    font-size: 2rem;
+    text-align: center;
+    justify-content: center;
+  }
 }
 
 .titleContainer{
