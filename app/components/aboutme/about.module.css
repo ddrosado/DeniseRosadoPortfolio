@@ -47,13 +47,14 @@
 
 .block{
     display: flex;
-    padding: 12px;
+    padding: 13px;
     flex-direction: row;
     background-color: #f4f4f4;
     border-radius: 5px;
     justify-content: left;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
     width: 50vw;
+    font-size: var(--font-size-3);
 }
 
 .about{
@@ -136,7 +137,8 @@
 }
 
 .textContainer{
-    padding: 55px 5px 5px 5px;
+    padding: 60px 5px 5px 5px;
+    font-size: var(--font-size-3);
 }
 
 
@@ -189,17 +191,18 @@
 .aboutContainer{
     height: 100vh;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    border: 1px solid blue;
 }
 .overflow{
-    height: 95vh;
-    overflow: hidden !important;
+    border: 1px solid red;
 }
 .topContainer{
-    gap: 3px;
-    height: 90vh; /* this one */
+    gap: var(--spacer-2);
+    height: 100vh;
+    margin-top: var(--spacer-3);
     flex-direction: column;
-    border: 1px solid blue;
+
 }
 .AleftContainer{
     flex-wrap: wrap;
@@ -207,7 +210,7 @@
     align-items: center;
 }
 .ArightContainer{
-    gap: 3px;
+    gap: var(--spacer-2);
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -217,17 +220,22 @@
     display: none;
 }
 .textContainer{
-    padding: 5px;
+    padding: var(--spacer-2);
 } 
 .aboutTitle{
     font-size: 2.5rem;
     margin-bottom: 5px;
 }   
 .aboutPic{
-    display: none;
+    position: relative;
+    width: 120px;
+    bottom: 0%; 
+    right: 0%;
+    left: 0%;
+    transform: translate(0%);
 }
 .block{
     width: 95vw;
-    padding: 5px;
+    padding: var(--spacer-2);
 }
 }
