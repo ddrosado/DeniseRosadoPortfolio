@@ -92,7 +92,7 @@ export default function Accordion() {
       aria-labelledby="headingTwo"
       data-te-parent="#accordionExample">
       <div class="px-5 py-4">
-        Avanzado, C2 en lectoescritura y C1 en conversacional! Hago todas mis búsquedas en inglés, me es muy útil para encontrar soluciones y aprender documentación.
+        Avanzado, C2 en lectoescritura y C1 en conversacional! Hago todas mis búsquedas en inglés, me es muy útil para encontrar soluciones y leer documentación.
       </div>
     </div>
   </div>
