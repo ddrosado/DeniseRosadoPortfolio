@@ -6,11 +6,6 @@
     background: linear-gradient(90deg, #ff70c680 40%, #debeff80 80%, #84fffc80 100%);
     justify-content: center;
     align-items: center; 
-
-    @media (max-width: 800px) {
-      flex-wrap: wrap;
-      overflow: hidden;
-    }
 }
 
 .titleContainer{
@@ -22,15 +17,6 @@
   height: 90vh;
   justify-content: space-evenly;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
-  
-
-  @media (max-width: 800px) {
-    width: 100vw;
-    height: 100vh;
-    border-radius: 0px;
-    flex-wrap: wrap;
-    }
-
 }
 
 
@@ -51,11 +37,6 @@
   @media (min-width: 1920px) {
     font-size: 8rem;
   }
-
-  @media (max-width: 800px) {
-    flex-wrap: wrap;
-    font-size: 3rem;
-  }
 }
 
 .welcomeSubtitle{
@@ -70,11 +51,6 @@
   @media (min-width: 1920px) {
     max-width: 600px;
   }
-
-  @media (max-width: 800px) {
-    max-width: 150px;
-    margin: auto;
-  }
 }
 
 
@@ -82,11 +58,6 @@
   display: flex;
   justify-content: center; 
   align-items: center;
-
-  @media (max-width: 800px) {
-    display: inline-block;
-    width: 100vw;
-    }
 }
 
 .descriptionContainer{
@@ -96,54 +67,28 @@
   flex-direction: row;
   width: 90vw;
   height: 100vh;
-
-
-  @media (max-width: 800px) {
-    flex-direction: column-reverse;
-    flex-wrap: wrap;
-    width: 100vw;
-    height: 100vh;
-    padding: 15px;
-    }
 }
 
 .leftContainer{
-  /* border: 1px solid blue; */
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   width: 40vw;
   height: 70vh;
   padding: 0px 0px 0px 0px;
-  /* border: 1px solid red; */
 
   @media (min-width: 1920px) {
     width: 100vw;
-  }
-
-  @media (max-width: 800px) {
-    width: 100vw;
-    flex-wrap: wrap;
   }
 }
 
 .textContainer{
   display: flex;
   flex-direction: column;
-
-  @media (max-width: 800px) {
-    width: 100vw;
-  }
-
 }
 
 .textContainer2{
   display: flex;
-
-  @media (max-width: 800px) {
-    width: 100vw;
-  }
-
 }
 
 .iconsSpan{
@@ -170,11 +115,6 @@
   height: 3.5rem;
   width: 13rem;
   box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
-
-  @media (max-width: 800px) {
-    width: 40vw !important;
-    font-size: 1rem !important;
-  }
 }
 
 .contactButton{
@@ -188,11 +128,6 @@
     height: 3.5rem;
     width: 13rem;
     box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
-
-    @media (max-width: 800px) {
-      width: 40vw;
-      font-size: 1rem;
-    }
 }
 
 .bolder{
@@ -221,11 +156,58 @@
   width: 75vh;
   justify-content: space-between;
   align-items: center;
-  /* border: 1px solid red; */
+}
 
-  @media (max-width: 800px) {
+@media (max-width: 800px) {
+  .welcomeContainer{
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+  .titleContainer{
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0px;
+    flex-wrap: wrap;
+  }
+  .welcomeTitle{
+    flex-wrap: wrap;
+    font-size: 3rem;
+  }
+  .image{
+    max-width: 200px;
+    margin: auto;
+  }
+  .descriptionContainer{
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+    padding: 15px;
+  }
+  .rightContainer{
+    display: inline-block;
+    width: 100vw;
+  }
+  .leftContainer{
+    width: 100vw;
+    flex-wrap: wrap;
+  }
+  .buttonContainer{
     width: 90vw;
     font-size: 1rem;
   }
-
+  .downloadButton{
+    width: 40vw !important;
+    font-size: 1rem !important;
+  }
+  .contactButton{
+    width: 40vw;
+    font-size: 1rem;
+  }
+  .textContainer{
+    width: 100vw;
+  }
+  .textContainer2{
+    width: 100vw;
+  }
 }
