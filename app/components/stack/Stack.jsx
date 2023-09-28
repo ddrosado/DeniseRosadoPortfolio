@@ -13,7 +13,6 @@ export default function Stack() {
           <div className={styles.titleContainer}>
             <h2 className={styles.boxTitle}>{stack.title}</h2>
           </div>
-          <div className={styles.content}>
       <div className={styles.technologiesContainer}>
   {stack.icon.map((icon, index) => (
     <div key={index} className={styles.techContainer}>
@@ -25,7 +24,6 @@ export default function Stack() {
       </div>
     </div>
   ))}
-  </div>
 </div>
         </div>
       ))}

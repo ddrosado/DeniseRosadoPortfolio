@@ -192,10 +192,6 @@
     height: 100vh;
     flex-wrap: wrap;
     justify-content: space-between;
-    border: 1px solid blue;
-}
-.overflow{
-    border: 1px solid red;
 }
 .topContainer{
     gap: var(--spacer-2);
@@ -212,7 +208,7 @@
 .ArightContainer{
     gap: var(--spacer-2);
     text-align: center;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     width: 100vw;
 }

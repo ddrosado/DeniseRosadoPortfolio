@@ -3,14 +3,12 @@
     justify-content: space-evenly;
     flex-direction: row;
     width: 100%;
-    @media (max-width: 800px) {
-        flex-wrap: wrap;
-        flex-direction: column;
-      }
 }
 
 .technologieContainer{
-    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: var(--spacer-1);
     width: 25vw;
     height: 75vh;
     background: linear-gradient(#f4f4f4, #f4f4f4) padding-box,
@@ -20,12 +18,14 @@
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
     justify-content: center;
     text-align: center;
+    align-items: center;
+    gap: var(--spacer-2);
+    /* border: 1px solid green; */
 }
 
 
 .svg{
     width: 125px;
-    margin: auto;
 }
 
 .span{
@@ -40,17 +40,16 @@
 .boxTitle{
     margin: auto;
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: var(--font-size-2);
+    padding-bottom: var(--spacer-2);
 }
 
 .titleContainer{
     display: flex;
+    width: 100%;
     border-bottom: 1px solid #d4d4d4;
 }
 
-.content{
-    margin-top: 5px;
-}
 
 .techIcon{
     display: block;
@@ -69,20 +68,54 @@
     background-image: linear-gradient(90deg, rgba(255,112,197,0.1) 40%, rgba(223,190,255,0.1) 60%, rgba(132,255,252,0.1) 100%);
     border: 1px solid rgba(222, 190, 255, 0.4);
     border-radius: 3px;
-    padding: 5px;
+    gap: var(--spacer-1);
     justify-content: center;
     transition: all .2s ease-in-out;
+    /* border: 1px solid red; */
 }
 
 .technologiesContainer{
     flex-wrap: wrap;
-    display: inline-flex;
+    display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: start;
+    align-content: start;
     width: 100%;
-    row-gap: 10px;
+    height: 100%;
+    gap: var(--spacer-2);
+    padding: var(--spacer-2);
+    /* border: 1px solid blue; */
 }
 
 .techContainer:hover{
     scale: 1.1;
 }
+
+.techName{
+    font-size: var(--font-size-3);
+}
+
+@media (max-width: 800px) {
+    .stackContainer{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .technologieContainer{
+        width: 95vw;
+        height: auto;
+        flex-direction: row;
+    }
+    .technologiesContainer{
+        gap: var(--spacer-2);
+        align-items: center;
+        justify-content: center;
+    }
+    .techContainer{
+        height: 9vh;
+        width: 17vw;
+    }
+    .svg{
+        width: 100px;
+    }
+  }
