@@ -165,8 +165,9 @@
 .buttonContainer{
   display: flex;
   flex-direction: row;
-  width: 75vh;
-  justify-content: space-between;
+  width: 100%;
+  justify-content: left;
+  gap: var(--spacer-5);
   align-items: center;
 }
 
