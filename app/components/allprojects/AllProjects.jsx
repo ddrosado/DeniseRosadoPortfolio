@@ -14,7 +14,7 @@ export default function AllProjects() {
     height={500}
     className={styles.projectImage}
     />
-    <h2>{card.title}</h2>
+    <h2 className={styles.projectTitle}>{card.title}</h2>
 <ul className={styles.techUl}>
     {card.technologies.map((tech, index) => (
           <li key={index} className={styles.techLi}>{tech}</li>

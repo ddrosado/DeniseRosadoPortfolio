@@ -65,3 +65,7 @@
   flex-direction: row;
   gap: 5vh;
 }
+
+.projectTitle{
+  font-size: var(--font-size-2);
+}

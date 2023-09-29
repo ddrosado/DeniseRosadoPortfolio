@@ -24,6 +24,6 @@
   text-align: center;
     justify-content: center;
     font-weight: 200;
-    font-size: 3.1rem;
+    font-size: var(--font-size-1);
     text-transform: uppercase;
 }
