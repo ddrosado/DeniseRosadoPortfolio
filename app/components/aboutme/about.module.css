@@ -47,14 +47,14 @@
 
 .block{
     display: flex;
-    padding: 15px;
+    padding: 12px;
     flex-direction: row;
     background-color: #f4f4f4;
     border-radius: 5px;
     justify-content: left;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
     width: 50vw;
-    font-size: var(--font-size-4);
+    font-size: var(--font-size-5);
 }
 
 .about{
@@ -126,7 +126,7 @@
     border: 10px solid #f4f4f4;
     margin: auto;
     position: absolute;
-    bottom: 70%; 
+    bottom: 65%; 
     right: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -137,8 +137,8 @@
 }
 
 .textContainer{
-    padding: 70px 5px 5px 5px;
-    font-size: var(--font-size-4);
+    padding: 50px 5px 5px 5px;
+    font-size: var(--font-size-5);
 }
 
 
