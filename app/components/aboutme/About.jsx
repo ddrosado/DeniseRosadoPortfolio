@@ -10,7 +10,7 @@ import { aboutData } from './aboutData'
 export default function About() {
 
   return (
-    <div className="section" data-anchor="about">
+    <div className="section fp-auto-height" data-anchor="about">
     <div className={styles.aboutContainer}>
       
     <div className={styles.overflow}>

@@ -10,6 +10,7 @@
     z-index: -1;
     align-items: center;
     justify-content: center;
+    padding-top: var(--spacer-3);
 }
 
 .overflow{
@@ -189,7 +190,7 @@
 
 @media (max-width: 800px) {
 .aboutContainer{
-    height: 100vh;
+    height: 140vh;
     flex-wrap: wrap;
     justify-content: space-between;
 }

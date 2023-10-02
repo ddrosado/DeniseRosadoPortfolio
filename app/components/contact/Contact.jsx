@@ -8,7 +8,7 @@ import Info from '../info/Info'
 
 export default function Contact() {
   return (
-    <div className="section" data-anchor="contact">
+    <div className="section fp-auto-height" data-anchor="contact">
     <div className={styles.contactBackground}>
     <div className={styles.contactContainer}>
 

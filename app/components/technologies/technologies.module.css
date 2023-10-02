@@ -10,18 +10,14 @@
   z-index: -1; /* Push it behind the content */
   align-items: center;
   justify-content: space-evenly;
+  gap: var(--spacer-3);
+  padding-top: var(--spacer-3);
 }
 
 .aboutTitle{
   font-weight: 200;
   font-size: 3.1rem;
   text-transform: uppercase;
-  @media (max-width: 800px) {
-    flex-wrap: wrap;
-    font-size: 2rem;
-    text-align: center;
-    justify-content: center;
-  }
 }
 
 .titleContainer{
@@ -63,3 +59,22 @@
     height: 100%;
     z-index: -1; /* Push it behind the content */
   }
+
+  @media (max-width: 800px) {
+    .aboutTitle{
+    flex-wrap: wrap;
+    font-size: 2rem;
+    text-align: center;
+    justify-content: center;
+    }
+    .technologiesContainer{
+      height: 120dvh;
+      overflow: hidden !important;
+      align-items: center;
+      justify-content: flex-start;
+    }
+    .descriptionContainer{
+      width: auto;
+      height: auto;
+    }
+    }

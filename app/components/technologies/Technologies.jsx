@@ -6,7 +6,7 @@ import Wave from '../svgs/Wave'
 
 export default function Technologies() {
   return (
-    <div className='section' data-anchor="stack">
+    <div className='section fp-auto-height' data-anchor="stack">
     <div className={styles.technologiesContainer}>
 
       <div className={styles.titleContainer}>

@@ -4,7 +4,7 @@ import AllProjects from '../allprojects/AllProjects'
 
 export default function Projects() {
   return (
-    <div className="section" data-anchor="projects">
+    <div className="section fp-auto-height-responsive" data-anchor="projects">
     <div className={styles.projectsContainer}>
     <div className={styles.myProjectsContainer}>
     <h1 className={styles.projectsTitle}>Proyectos</h1>
