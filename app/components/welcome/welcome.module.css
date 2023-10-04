@@ -49,7 +49,7 @@
 }
 
 .image:hover{
-  scale: 1.2;
+  scale: 1.1;
 }
 
 
@@ -61,11 +61,12 @@
 
 .descriptionContainer{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   flex-direction: row;
   width: 90vw;
   height: 100vh;
+  padding: var(--spacer-1) var(--spacer-7);
 }
 
 .leftContainer{
@@ -143,9 +144,9 @@
   font-size: var(--font-size-1);
   line-height: 1.1;
   color: #262626;
-  @media (min-width: 1920px) {
+  /* @media (min-width: 1920px) {
     font-size: 8rem;
-  }
+  } */
 }
 
 .bold{
@@ -228,4 +229,8 @@
   .textContainer2{
     width: 100vw;
   }
+}
+
+
+@media (min-width: 1900px) {
 }

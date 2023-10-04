@@ -48,7 +48,7 @@
 
 .block{
     display: flex;
-    padding: 12px;
+    padding: 1.8vh;
     flex-direction: row;
     background-color: #f4f4f4;
     border-radius: 5px;
@@ -80,7 +80,7 @@
     display: inline;
     margin-right: 10px;
     margin-left: 5px;
-    padding-top:3px;
+    padding-top: 3px;
 }
 
 .aboutTitle{
