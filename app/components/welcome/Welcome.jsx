@@ -44,8 +44,10 @@ export default function Welcome() {
         <button
         className={styles.downloadButton}>Descargar CV</button>
       </a>
+      <a href='#contact'>
       <button
         className={styles.contactButton}>Contactame</button>
+      </a>
       </div>
 
 

@@ -131,6 +131,7 @@
     right: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    transition: 0.5s;
 }
 
 .paragraph{
@@ -239,5 +240,16 @@
     width: 95vw;
     padding: var(--spacer-2);
     font-size: var(--font-size-5);
+}
+}
+
+
+@media (min-width: 1900px) {
+.aboutPic{
+    width: 140px;
+    bottom: 75%;
+}
+.textContainer{
+    padding-top: 6.5vh;
 }
 }
