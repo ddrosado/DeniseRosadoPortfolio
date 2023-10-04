@@ -172,6 +172,8 @@
   .welcomeContainer{
     flex-wrap: wrap;
     overflow: hidden;
+    align-items: center; 
+    justify-content: center;
   }
   .titleContainer{
     width: 100vw;
@@ -179,6 +181,7 @@
     border-radius: 0px;
     flex-wrap: wrap;
     align-items: center; 
+    justify-content: center;
     /* border: 1px solid cyan; */
   }
   .welcomeTitle{
@@ -197,7 +200,6 @@
   }
   .descriptionContainer{
     flex-direction: column-reverse;
-    flex-wrap: wrap;
     align-items: center;
     width: 95vw;
     height: 95vh;
@@ -209,11 +211,15 @@
   }
   .leftContainer{
     width: 100vw;
+    padding: var(--spacer-6);
     flex-wrap: wrap;
+
   }
   .buttonContainer{
     width: 90vw;
     font-size: 1rem;
+    justify-content: center;
+    gap: var(--spacer-7)
   }
   .downloadButton{
     width: 40vw !important;
