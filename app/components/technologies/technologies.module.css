@@ -12,6 +12,7 @@
   justify-content: space-evenly;
   gap: var(--spacer-3);
   padding-top: var(--spacer-3);
+  overflow: hidden !important;
 }
 
 .aboutTitle{
@@ -69,7 +70,6 @@
     }
     .technologiesContainer{
       height: 120dvh;
-      overflow: hidden !important;
       align-items: center;
       justify-content: flex-start;
     }

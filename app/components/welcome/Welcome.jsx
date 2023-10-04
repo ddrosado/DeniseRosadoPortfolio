@@ -6,12 +6,11 @@ import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 import manitoholi from '../../../public/manitoholi.png'
 import Nav from '../nav/Nav'
-import SocialMedia from '../socialMedia/SocialMedia'
 config.autoAddCss = false
 
 export default function Welcome() {
   return (
-    <div className="section" data-anchor="home">
+    <div className="section fp-auto-height" data-anchor="home">
     <div className={styles.welcomeContainer}>
        <div className={styles.titleContainer}>
        <Nav/>

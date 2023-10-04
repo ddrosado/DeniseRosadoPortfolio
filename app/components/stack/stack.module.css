@@ -9,7 +9,6 @@
 .technologieContainer{
     display: flex;
     flex-direction: column;
-    padding: var(--spacer-1);
     width: 25vw;
     height: 75vh;
     background: linear-gradient(#f4f4f4, #f4f4f4) padding-box,
@@ -20,13 +19,13 @@
     justify-content: center;
     text-align: center;
     align-items: center;
-    gap: var(--spacer-2);
+    gap: var(--spacer-1);
     /* border: 1px solid green; */
 }
 
 
 .svg{
-    width: 125px;
+    width: 115px;
 }
 
 .span{
@@ -43,19 +42,21 @@
     font-weight: 400;
     font-size: var(--font-size-3);
     padding-bottom: var(--spacer-2);
+    /* border: 1px solid red; */
 }
 
 .titleContainer{
     display: flex;
     width: 100%;
     border-bottom: 1px solid #d4d4d4;
+    /* border: 1px solid red; */
 }
 
 
 .techIcon{
     display: block;
     max-width: 100%; 
-    max-height: 50px; 
+    max-height: 40px; 
     aspect-ratio: 1 / 1;
     padding: 1px;
 }
@@ -64,8 +65,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 7vw;
-    height: 13.5vh;
+    width: 85px;
+    height: 85px;
     background-image: linear-gradient(90deg, rgba(255,112,197,0.1) 40%, rgba(223,190,255,0.1) 60%, rgba(132,255,252,0.1) 100%);
     border: 1px solid rgba(222, 190, 255, 0.4);
     border-radius: 3px;
@@ -85,7 +86,7 @@
     width: 100%;
     height: 100%;
     gap: var(--spacer-2);
-    padding: var(--spacer-2);
+    padding: var(--spacer-1);
     /* border: 1px solid blue; */
 }
 
