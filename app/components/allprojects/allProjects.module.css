@@ -70,3 +70,18 @@
 .projectTitle{
   font-size: var(--font-size-4);
 }
+
+
+@media (max-width: 800px) {
+  .projects{
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red; */
+  }
+  .card{
+    width: 80vw;
+    height: 60vh;
+    /* border: 1px solid orange; */
+  }
+}

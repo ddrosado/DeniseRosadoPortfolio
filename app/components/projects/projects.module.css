@@ -23,8 +23,20 @@
 
 .projectsTitle{
   text-align: center;
-    justify-content: center;
-    font-weight: 200;
-    font-size: var(--font-size-1);
-    text-transform: uppercase;
+  justify-content: center;
+  font-weight: 200;
+  font-size: var(--font-size-1);
+  text-transform: uppercase;
+}
+
+@media (max-width: 800px) {
+  .projectsContainer{
+    height: 150vh;
+    /* border: 1px solid cyan; */
+  }
+  .myProjectsContainer{
+    /* border: 1px solid blue; */
+    width: 95%;
+    height: 95%;
+  }
 }
