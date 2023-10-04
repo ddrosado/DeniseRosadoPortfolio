@@ -10,6 +10,7 @@
   z-index: -1; /* Push it behind the content */
   align-items: center;
   justify-content: center;
+  overflow: hidden !important;
 }
 
 .contactContainer{
@@ -44,3 +45,8 @@
     width: 48vw;
 }
 
+@media (max-width: 800px) {
+    .contactContainer{
+        flex-direction: column;
+    }
+}
