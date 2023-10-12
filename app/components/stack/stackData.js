@@ -21,6 +21,8 @@ import git from '../../../public/stack/git.png';
 import github from '../../../public/stack/github.png';
 import restapi from '../../../public/stack/restapi.png';
 import jest from '../../../public/stack/jest.png';
+import dotnet from '../../../public/stack/dotnet.png';
+import csharp from '../../../public/stack/csharp.png';
 
 
 export const stackData = [
@@ -35,8 +37,8 @@ export const stackData = [
         id: 2, 
         title: 'Back-End', 
         svg: <Backend/>,
-        stack: ['Express','Node.js', 'Sequelize', 'PostgreSQL', 'SQL', 'Firebase'],
-        icon: [express, node, sequelize, postgresql, sql, firebase]
+        stack: ['C#', '.NET', 'Node.js', 'Express', 'Sequelize', 'PostgreSQL', 'SQL', 'Firebase'],
+        icon: [csharp, dotnet, node, express, sequelize, postgresql, sql, firebase]
     },
     { 
         id: 3, 

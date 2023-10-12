@@ -17,7 +17,7 @@ export default function Stack() {
   {stack.icon.map((icon, index) => (
     <div key={index} className={styles.techContainer}>
       <div className={styles.techIcon}>
-        <Image src={icon} width={100} className={styles.techIcon} />
+        <Image src={icon} width={100} className={styles.techIcon} alt={stack.stack[index]}/>
       </div>
       <div className={styles.techName}>
         {stack.stack[index]} 
