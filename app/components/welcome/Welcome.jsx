@@ -33,7 +33,7 @@ export default function Welcome() {
        </div>
 
        <div className={styles.textContainer2}>
-       <h2 className={styles.welcomeSubtitle}>Y disfruto de crear interfaces intuitivas que enriquezcan la experiencia del usuario.</h2>
+       <h2 className={styles.welcomeSubtitle}>Y disfruto de soluciones funcionales con interfaces altamente intuitivas!</h2>
 
       </div>
 
