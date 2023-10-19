@@ -28,7 +28,7 @@ export default function Welcome() {
         <p className={styles.welcomeTitle}> Denise Rosado,
         </p></h2>
        <h1 className={styles.bolder}>FullStack Developer</h1> 
-       {/* <h2 className={styles.welcomeSubtitle}>orientada al FrontEnd!</h2> */}
+       <h2 className={styles.welcomeSubtitle}>.NET y React</h2>
 
        </div>
 
